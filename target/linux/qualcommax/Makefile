@@ -8,12 +8,7 @@ KERNELNAME:=Image dtbs
 CPU_TYPE:=cortex-a53
 SUBTARGETS:=ipq807x ipq60xx
 
-<<<<<<< HEAD
-# KERNEL_PATCHVER:=6.1
-KERNEL_TESTING_PATCHVER:=6.6
-=======
 KERNEL_PATCHVER:=6.6
->>>>>>> origin
 
 include $(INCLUDE_DIR)/target.mk
 DEFAULT_PACKAGES += \
