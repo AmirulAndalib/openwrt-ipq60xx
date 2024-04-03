@@ -30,6 +30,12 @@ ipq60xx_setup_interfaces()
 	redmi,ax5-jdcloud|\
 	xiaomi,ax1800)
 		ucidef_set_interfaces_lan_wan "lan1 lan2 lan3" "wan"
+<<<<<<< HEAD
+=======
+		;;
+	netgear,wax214)
+		ucidef_set_interfaces_lan_wan "lan"
+>>>>>>> origin
 		;;
 	*)
 		echo "Unsupported hardware. Network interfaces not initialized"

@@ -19,6 +19,11 @@ zn,m2|\
 qihoo,v6|\
 redmi,ax5|\
 xiaomi,ax1800|\
+<<<<<<< HEAD
+=======
+glinet,gl-ax1800|\
+glinet,gl-axt1800|\
+>>>>>>> origin
 netgear,wax214)
 	idx="$(find_mtd_index 0:appsblenv)"
 	[ -n "$idx" ] && \
